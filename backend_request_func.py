@@ -46,7 +46,7 @@ async def async_request_tgi(
     api_url = request_func_input.api_url
     assert api_url.endswith("generate_stream")
 
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
         assert not request_func_input.use_beam_search
         params = {
             "best_of": request_func_input.best_of,
@@ -118,7 +118,7 @@ async def async_request_trt_llm(
     api_url = request_func_input.api_url
     assert api_url.endswith("generate_stream")
 
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
         assert not request_func_input.use_beam_search
         assert request_func_input.best_of == 1
         payload = {
@@ -183,7 +183,7 @@ async def async_request_deepspeed_mii(
     request_func_input: RequestFuncInput,
     pbar: Optional[tqdm] = None,
 ) -> RequestFuncOutput:
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
         assert request_func_input.best_of == 1
         assert not request_func_input.use_beam_search
 
@@ -232,7 +232,7 @@ async def async_request_openai_completions(
         "completions"
     ), "OpenAI Completions API URL must end with 'completions'."
 
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
         assert not request_func_input.use_beam_search
         payload = {
             "model": request_func_input.model,
@@ -244,6 +244,7 @@ async def async_request_openai_completions(
             "ignore_eos": request_func_input.ignore_eos,
         }
         headers = {
+            "Content-Type": "application/json",
             "Authorization": f"Bearer {os.environ.get('OPENAI_API_KEY')}"
         }
 
@@ -254,6 +255,7 @@ async def async_request_openai_completions(
         ttft = 0.0
         st = time.perf_counter()
         most_recent_timestamp = st
+        #print(api_url)
         try:
             async with session.post(url=api_url, json=payload,
                                     headers=headers) as response:
@@ -264,12 +266,12 @@ async def async_request_openai_completions(
                             continue
 
                         chunk = remove_prefix(chunk_bytes.decode("utf-8"),
-                                              "data: ")
+                                            "data: ")
                         if chunk == "[DONE]":
                             latency = time.perf_counter() - st
                         else:
                             data = json.loads(chunk)
-
+                            #print(data)
                             # NOTE: Some completion API might have a last
                             # usage summary response without a token so we
                             # want to check a token was generated
@@ -283,7 +285,7 @@ async def async_request_openai_completions(
                                 # Decoding phase
                                 else:
                                     output.itl.append(timestamp -
-                                                      most_recent_timestamp)
+                                                    most_recent_timestamp)
 
                                 most_recent_timestamp = timestamp
                                 generated_text += data["choices"][0]["text"]
@@ -313,7 +315,7 @@ async def async_request_openai_chat_completions(
         "chat/completions"
     ), "OpenAI Chat Completions API URL must end with 'chat/completions'."
 
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
         assert not request_func_input.use_beam_search
         payload = {
             "model": request_func_input.model,
