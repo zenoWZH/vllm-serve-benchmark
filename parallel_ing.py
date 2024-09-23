@@ -4,11 +4,11 @@ from multiprocessing import Pool
 from backend_request_func import remove_prefix
 
 def run_benchmark(url):
-    url[0] = remove_prefix(url[0], prefix="http://")
+    url[0] = "https://" + remove_prefix(url[0], prefix="http://")
     cmd = f"export OPENAI_API_KEY=token-abc123 && python3 benchmark_serving.py \
             --backend vllm --model meta-llama/Meta-Llama-3-8B-Instruct \
             --dataset-name sharegpt --dataset-path ./ShareGPT_V3_unfiltered_cleaned_split.json \
-            --num-prompts 40960 --host {url[0]} --port {url[1]} --request_rate=8"
+            --num-prompts 40960 --base-url {url[0]} --request_rate=8"
     result = subprocess.call(cmd, shell=True)
     return result
 
