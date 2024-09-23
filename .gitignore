@@ -162,5 +162,5 @@ cython_debug/
 #.idea/
 
 # Sensitive Data
-.json
-.csv
+*.json
+*.csv
