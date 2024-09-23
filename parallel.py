@@ -5,7 +5,7 @@ from backend_request_func import remove_prefix
 
 def run_benchmark(url):
     url[0] = remove_prefix(url[0], prefix="http://")
-    cmd = f"export OPENAI_API_KEY=token-abc123 && python3 benchmark_serving.py --backend vllm --model meta-llama/Meta-Llama-3-8B-Instruct --dataset-name sharegpt --dataset-path ./ShareGPT_V3_unfiltered_cleaned_split.json --num-prompts 40960 --host {url[0]} --port {url[1]} --request_rate=7"
+    cmd = f"export OPENAI_API_KEY=token-abc123 && python3 benchmark_serving.py --backend vllm --model meta-llama/Meta-Llama-3-8B-Instruct --dataset-name sharegpt --dataset-path ./ShareGPT_V3_unfiltered_cleaned_split.json --num-prompts 40960 --host {url[0]} --port {url[1]} --request_rate=8"
     result = subprocess.call(cmd, shell=True)
     return result
 
@@ -20,6 +20,6 @@ if __name__ == '__main__':
     with open("parallel.txt", "a+") as f:
         for res in results:
             for r in res:
-                f.write(r)
+                f.write(str(r))
             f.write("================================")
 
