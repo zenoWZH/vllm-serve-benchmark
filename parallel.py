@@ -20,9 +20,9 @@ if __name__ == '__main__':
         r = pool.map_async(run_benchmark, url_list, callback=results.append)
         r.wait()
 
-    with open("parallel.txt", "a+") as f:
-        for res in results:
-            for r in res:
-                f.write(str(r))
-            f.write("================================")
+#    with open("parallel.txt", "a+") as f:
+#        for res in results:
+#            for r in res:
+#                f.write(str(r))
+#            f.write("================================")
 
