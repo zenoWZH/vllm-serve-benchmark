@@ -1,0 +1,26 @@
+WARNING 09-25 16:19:41 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+Namespace(backend='vllm', base_url='https://vgpu-test-1.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=8.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 8.0
+============ Serving Benchmark Result ============
+Successful requests:                     40934     
+Benchmark duration (s):                  5178.72   
+Total input tokens:                      9094093   
+Total generated tokens:                  7565893   
+Request throughput (req/s):              7.90      
+Input token throughput (tok/s):          1756.05   
+Output token throughput (tok/s):         1460.96   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          8634.46   
+Median TTFT (ms):                        9133.44   
+P99 TTFT (ms):                           25917.73  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          65.18     
+Median TPOT (ms):                        78.90     
+P99 TPOT (ms):                           150.92    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           113.74    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7994.37   
+==================================================
