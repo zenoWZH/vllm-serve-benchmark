@@ -281,7 +281,7 @@ async def async_request_openai_completions(
                                 if ttft == 0.0:
                                     ttft = time.perf_counter() - st
                                     output.ttft = ttft
-                                    print(f"***CONNECTION ESTABLISHED ON {api_url}: {ttft}ms***")
+                                    #print(f"***CONNECTION ESTABLISHED ON {api_url}: {ttft}ms***")
 
                                 # Decoding phase
                                 else:
