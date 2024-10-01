@@ -2,6 +2,8 @@ import json
 import os
 import sys
 import time
+import pytz
+from datetime import datetime
 import traceback
 from dataclasses import dataclass, field
 from typing import List, Optional, Union
@@ -37,6 +39,10 @@ class RequestFuncOutput:
         default_factory=list)  # List of inter-token latencies
     prompt_len: int = 0
     error: str = ""
+
+def timeget():
+    timezone = "America/Los_Angeles"
+    return datetime.now(pytz.timezone(timezone)).strftime("%Y-%m-%d %H:%M:%S")    
 
 
 async def async_request_tgi(
@@ -257,6 +263,7 @@ async def async_request_openai_completions(
         most_recent_timestamp = st
         #print(api_url)
         try:
+            print(timeget(), f"===SESSION POST ON {api_url}===")
             async with session.post(url=api_url, json=payload,
                                     headers=headers) as response:
                 if response.status == 200:
@@ -281,7 +288,7 @@ async def async_request_openai_completions(
                                 if ttft == 0.0:
                                     ttft = time.perf_counter() - st
                                     output.ttft = ttft
-                                    #print(f"***CONNECTION ESTABLISHED ON {api_url}: {ttft}ms***")
+                                    print(f"***CONNECTION ESTABLISHED ON {api_url}: {ttft} seconds***")
 
                                 # Decoding phase
                                 else:
@@ -296,6 +303,7 @@ async def async_request_openai_completions(
                     output.latency = latency
                 else:
                     output.error = response.reason or ""
+                    print(timeget(), "ERROR on:", api_url, output.error)
                     output.success = False
         except Exception:
             output.success = False
