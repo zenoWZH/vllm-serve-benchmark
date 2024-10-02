@@ -14,7 +14,7 @@ def run_benchmark(url):
 
 if __name__ == '__main__':
     input_csv = pd.read_csv("API_urls.csv")
-    url_list = input_csv[['ing','port']].values.tolist()
+    url_list = input_csv[['ing','port']].values.tolist()[:6]
     results = []
     with Pool(processes=len(url_list)) as pool:
         r = pool.map_async(run_benchmark, url_list, callback=results.append)
