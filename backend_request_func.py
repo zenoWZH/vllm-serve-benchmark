@@ -264,7 +264,7 @@ async def async_request_openai_completions(
         most_recent_timestamp = st
         #print(api_url)
         try:
-            print(timeget(), f"===SESSION POST ON {session_id}===")
+            #print(timeget(), f"===SESSION POST ON {session_id}===")
             async with session.post(url=api_url, json=payload,
                                     headers=headers) as response:
                 if response.status == 200:
@@ -289,7 +289,7 @@ async def async_request_openai_completions(
                                 if ttft == 0.0:
                                     ttft = time.perf_counter() - st
                                     output.ttft = ttft
-                                    print(f"***ON {timeget()} CONNECTION ESTABLISHED ON {session_id}: {ttft} seconds***")
+                                    #print(f"***ON {timeget()} CONNECTION ESTABLISHED ON {session_id}: {ttft} seconds***")
 
                                 # Decoding phase
                                 else:
