@@ -52,7 +52,7 @@ async def async_request_tgi(
     api_url = request_func_input.api_url
     assert api_url.endswith("generate_stream")
 
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector()) as session:
         assert not request_func_input.use_beam_search
         params = {
             "best_of": request_func_input.best_of,
@@ -124,7 +124,7 @@ async def async_request_trt_llm(
     api_url = request_func_input.api_url
     assert api_url.endswith("generate_stream")
 
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector()) as session:
         assert not request_func_input.use_beam_search
         assert request_func_input.best_of == 1
         payload = {
@@ -189,7 +189,7 @@ async def async_request_deepspeed_mii(
     request_func_input: RequestFuncInput,
     pbar: Optional[tqdm] = None,
 ) -> RequestFuncOutput:
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector()) as session:
         assert request_func_input.best_of == 1
         assert not request_func_input.use_beam_search
 
@@ -238,7 +238,7 @@ async def async_request_openai_completions(
         "completions"
     ), "OpenAI Completions API URL must end with 'completions'."
 
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector()) as session:
         assert not request_func_input.use_beam_search
         session_id = api_url[8:].split('/')[0]+" "+str(id(session))
         payload = {
@@ -325,7 +325,7 @@ async def async_request_openai_chat_completions(
         "chat/completions"
     ), "OpenAI Chat Completions API URL must end with 'chat/completions'."
 
-    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector(ssl=False)) as session:
+    async with aiohttp.ClientSession(timeout=AIOHTTP_TIMEOUT, connector=aiohttp.TCPConnector()) as session:
         assert not request_func_input.use_beam_search
         payload = {
             "model": request_func_input.model,
