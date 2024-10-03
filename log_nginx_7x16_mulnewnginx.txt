@@ -1,0 +1,809 @@
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-02 15:46:03 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+Namespace(backend='vllm', base_url='https://vgpu-test-16.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-5.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-7.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-1.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-14.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-3.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-10.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-8.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-12.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-13.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-15.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-2.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-9.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-11.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-4.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+Namespace(backend='vllm', base_url='https://vgpu-test-6.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+2024-10-02 15:53:57 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:55:59 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:56:53 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:01:25 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:07:10 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:17:14 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:19:04 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:30:18 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:34:13 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:39:38 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:43:07 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:04:57 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:06:13 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:20 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:20:34 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:23:43 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40934     
+Benchmark duration (s):                  5898.08   
+Total input tokens:                      9093615   
+Total generated tokens:                  7575020   
+Request throughput (req/s):              6.94      
+Input token throughput (tok/s):          1541.79   
+Output token throughput (tok/s):         1284.32   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6693.47   
+Median TTFT (ms):                        8180.93   
+P99 TTFT (ms):                           12079.85  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          61.35     
+Median TPOT (ms):                        73.31     
+P99 TPOT (ms):                           144.43    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           107.08    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7091.98   
+==================================================
+2024-10-02 15:58:12 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:58:59 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:00:02 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:22:23 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:22:30 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:40:55 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:52:19 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:55:28 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:56:41 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:06:13 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:20:40 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:21:30 ERROR on: https://vgpu-test-3.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40939     
+Benchmark duration (s):                  5898.47   
+Total input tokens:                      9093883   
+Total generated tokens:                  7563727   
+Request throughput (req/s):              6.94      
+Input token throughput (tok/s):          1541.74   
+Output token throughput (tok/s):         1282.32   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6556.15   
+Median TTFT (ms):                        7991.08   
+P99 TTFT (ms):                           11734.02  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          59.92     
+Median TPOT (ms):                        72.79     
+P99 TPOT (ms):                           138.09    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           104.60    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7037.37   
+==================================================
+2024-10-02 15:59:15 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:01:32 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:03:38 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:05:16 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:14:30 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:17:04 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:27:22 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:39:57 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:44:01 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:45:06 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:46:57 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:53:02 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:55:27 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:00:11 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:01:59 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:08:51 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:20:27 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:23:29 ERROR on: https://vgpu-test-14.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40931     
+Benchmark duration (s):                  5900.20   
+Total input tokens:                      9093519   
+Total generated tokens:                  7572147   
+Request throughput (req/s):              6.94      
+Input token throughput (tok/s):          1541.22   
+Output token throughput (tok/s):         1283.37   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6748.57   
+Median TTFT (ms):                        8224.21   
+P99 TTFT (ms):                           11872.37  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          60.77     
+Median TPOT (ms):                        74.11     
+P99 TPOT (ms):                           138.79    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           106.02    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7259.50   
+==================================================
+2024-10-02 15:56:07 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:56:42 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:56:43 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:56:51 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:57:16 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:57:47 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:05:36 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:13:08 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:18:38 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:24:03 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:24:34 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:27:20 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:39:24 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:49:03 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:50:30 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:57:43 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:59:38 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:01:30 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:03:22 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:14:16 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:19:43 ERROR on: https://vgpu-test-12.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40925     
+Benchmark duration (s):                  5900.21   
+Total input tokens:                      9093408   
+Total generated tokens:                  7563555   
+Request throughput (req/s):              6.94      
+Input token throughput (tok/s):          1541.20   
+Output token throughput (tok/s):         1281.91   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6424.64   
+Median TTFT (ms):                        7845.61   
+P99 TTFT (ms):                           11379.50  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          58.76     
+Median TPOT (ms):                        71.30     
+P99 TPOT (ms):                           135.84    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           102.60    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            6862.16   
+==================================================
+2024-10-02 15:51:32 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:03:04 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:13:38 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:22:46 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:22:52 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:24:47 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:38:29 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:45:53 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:51:44 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:52:35 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:53:07 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:53:31 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:05:39 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:07:40 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:08:47 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:14 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:45 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:13:13 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:16:15 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:19:20 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:21:57 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:23:51 ERROR on: https://vgpu-test-8.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40920     
+Benchmark duration (s):                  5901.12   
+Total input tokens:                      9092020   
+Total generated tokens:                  7561388   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1540.73   
+Output token throughput (tok/s):         1281.35   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6783.55   
+Median TTFT (ms):                        8316.16   
+P99 TTFT (ms):                           12182.06  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          61.68     
+Median TPOT (ms):                        75.46     
+P99 TPOT (ms):                           141.58    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           107.64    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7266.11   
+==================================================
+2024-10-02 15:48:22 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:49:26 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:56:34 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:57:57 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:58:20 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:03:00 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:03:32 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:05:08 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:07:10 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:07:14 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:07:59 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:16:13 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:18:38 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:20:29 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:25:17 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:31:47 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:35:48 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:39:08 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:46:59 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:49:56 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:58:09 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:00:07 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:02:47 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:02:49 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:05:55 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:09:36 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:12:23 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:12:53 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:21:37 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40921     
+Benchmark duration (s):                  5902.29   
+Total input tokens:                      9094986   
+Total generated tokens:                  7566092   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1540.93   
+Output token throughput (tok/s):         1281.89   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6658.07   
+Median TTFT (ms):                        8234.86   
+P99 TTFT (ms):                           11865.44  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          61.04     
+Median TPOT (ms):                        75.34     
+P99 TPOT (ms):                           139.89    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           106.53    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7400.29   
+==================================================
+2024-10-02 15:49:39 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:53:38 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:02 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:20 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:31 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:38 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:07:04 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:13:33 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:21:07 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:24:29 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:24:54 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:26:39 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:27:33 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:27:44 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:28:08 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:31:49 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:32:13 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:34:11 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:43:38 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:43:51 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:49:50 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:51:47 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:55:47 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:59:35 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:04:57 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:05:26 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:07:56 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:03 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:18:44 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:19:55 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions 
+2024-10-02 17:21:11 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:22:05 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:23:19 ERROR on: https://vgpu-test-10.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40919     
+Benchmark duration (s):                  5902.38   
+Total input tokens:                      9094600   
+Total generated tokens:                  7564395   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1540.84   
+Output token throughput (tok/s):         1281.58   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6410.36   
+Median TTFT (ms):                        7798.41   
+P99 TTFT (ms):                           11383.00  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          57.79     
+Median TPOT (ms):                        69.99     
+P99 TPOT (ms):                           134.51    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           100.83    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            6751.44   
+==================================================
+2024-10-02 16:17:01 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:36:39 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:47:33 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:52:30 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:04:00 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:07:46 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:08:18 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:15:40 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:16:51 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:21:24 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:23:17 ERROR on: https://vgpu-test-15.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40937     
+Benchmark duration (s):                  5902.53   
+Total input tokens:                      9095806   
+Total generated tokens:                  7567834   
+Request throughput (req/s):              6.94      
+Input token throughput (tok/s):          1541.00   
+Output token throughput (tok/s):         1282.13   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6584.27   
+Median TTFT (ms):                        8115.24   
+P99 TTFT (ms):                           11778.95  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          60.21     
+Median TPOT (ms):                        72.94     
+P99 TPOT (ms):                           138.80    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.12    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7105.05   
+==================================================
+2024-10-02 15:51:16 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:52:36 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:55:15 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:34 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:03:20 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:06:45 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:14:20 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:16:29 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:17:20 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:23:07 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:27:51 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:34:11 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:46:26 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:48:08 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:59:22 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:29 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:13:24 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:17:22 ERROR on: https://vgpu-test-13.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40932     
+Benchmark duration (s):                  5903.59   
+Total input tokens:                      9096955   
+Total generated tokens:                  7564700   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1540.92   
+Output token throughput (tok/s):         1281.37   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6690.23   
+Median TTFT (ms):                        8241.75   
+P99 TTFT (ms):                           12222.44  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          61.21     
+Median TPOT (ms):                        75.30     
+P99 TPOT (ms):                           142.66    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           106.88    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7416.61   
+==================================================
+2024-10-02 15:52:03 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:56:25 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:57:07 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:58:20 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:17 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:39 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:00:21 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:07:53 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:09:55 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:13:14 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:15:03 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:16:28 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:16:47 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:21:41 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:23:15 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:26:05 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:31:17 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:32:04 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:33:48 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:34:44 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:36:05 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:42:43 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:47:17 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:52:43 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:56:50 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:02:56 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:05:33 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:05:54 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:06:04 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:06:13 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:12:18 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:12:30 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:14:03 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:14:49 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:15:00 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:15:14 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:16:52 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:18:16 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:19:46 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:21:37 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:22:36 ERROR on: https://vgpu-test-5.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40911     
+Benchmark duration (s):                  5904.96   
+Total input tokens:                      9087909   
+Total generated tokens:                  7568178   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1539.03   
+Output token throughput (tok/s):         1281.66   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6932.78   
+Median TTFT (ms):                        8529.66   
+P99 TTFT (ms):                           12164.81  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          62.44     
+Median TPOT (ms):                        76.25     
+P99 TPOT (ms):                           141.83    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           108.85    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7520.03   
+==================================================
+2024-10-02 15:52:34 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:56:21 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:56:41 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:57:55 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:58:03 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:58:41 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:24 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:35 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:09:49 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:12:57 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:13:57 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:18:01 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:18:48 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:19:00 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:19:16 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:19:54 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:23:44 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:24:16 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:26:59 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:27:18 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:27:41 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:35:01 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:37:51 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:41:03 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:41:45 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:42:33 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:44:04 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:44:47 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:45:33 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:51:17 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:51:54 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:53:35 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:56:28 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:59:04 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:02:10 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:04:54 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:05:35 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:08:00 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:45 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:57 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:12:56 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:13:52 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:15:43 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:16:59 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:24:08 ERROR on: https://vgpu-test-11.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40905     
+Benchmark duration (s):                  5904.15   
+Total input tokens:                      9089896   
+Total generated tokens:                  7566824   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1539.58   
+Output token throughput (tok/s):         1281.61   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          7148.68   
+Median TTFT (ms):                        8755.10   
+P99 TTFT (ms):                           12864.12  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          64.00     
+Median TPOT (ms):                        79.16     
+P99 TPOT (ms):                           147.42    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           111.61    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7809.16   
+==================================================
+2024-10-02 15:49:29 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:49:37 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:53:09 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:58:34 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:22 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:01:17 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:01:41 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:03:53 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:07:26 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:09:26 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:10:51 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:14:16 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:22:26 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:22:34 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:23:39 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:24:23 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:26:40 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:29:37 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:40:00 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:48:47 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:51:36 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:56:10 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:57:40 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:59:28 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:00:27 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:04:07 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:12:36 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:12:37 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:12:39 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:13:31 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:13:57 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:22:00 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:24:29 ERROR on: https://vgpu-test-9.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40915     
+Benchmark duration (s):                  5905.43   
+Total input tokens:                      9091237   
+Total generated tokens:                  7561571   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1539.47   
+Output token throughput (tok/s):         1280.44   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          7080.05   
+Median TTFT (ms):                        8691.99   
+P99 TTFT (ms):                           12449.05  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          63.46     
+Median TPOT (ms):                        77.98     
+P99 TPOT (ms):                           144.89    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           110.73    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7687.41   
+==================================================
+2024-10-02 15:52:12 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:06 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:18 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:49 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:04:16 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:04:43 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:09:23 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:09:28 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:11:04 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:12:21 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:16:16 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:24:01 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:35:03 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:35:23 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:36:11 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:43:34 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:45:15 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:50:57 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:56:12 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:02:17 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:03:15 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:06:11 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:07:49 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:09:21 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:14:35 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:21:50 ERROR on: https://vgpu-test-2.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40920     
+Benchmark duration (s):                  5905.40   
+Total input tokens:                      9092055   
+Total generated tokens:                  7561018   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1539.62   
+Output token throughput (tok/s):         1280.36   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6708.62   
+Median TTFT (ms):                        8105.45   
+P99 TTFT (ms):                           13042.73  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          60.57     
+Median TPOT (ms):                        72.45     
+P99 TPOT (ms):                           148.19    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.58    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            6918.61   
+==================================================
+2024-10-02 15:47:57 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:57:34 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:58:38 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:00 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:11:08 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:11:55 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:12:41 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:12:46 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:13:06 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:14:05 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:14:29 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:17:31 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:27:15 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:30:08 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:30:22 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:35:58 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:38:42 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:39:35 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:41:23 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:43:05 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:44:27 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:48:45 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:51:23 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:52:24 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:59:53 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:59:56 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:02:41 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:22 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:13:58 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:15:09 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:22:34 ERROR on: https://vgpu-test-4.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40916     
+Benchmark duration (s):                  5905.48   
+Total input tokens:                      9092707   
+Total generated tokens:                  7557655   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1539.71   
+Output token throughput (tok/s):         1279.77   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6850.29   
+Median TTFT (ms):                        8491.86   
+P99 TTFT (ms):                           11872.27  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          62.32     
+Median TPOT (ms):                        77.25     
+P99 TPOT (ms):                           139.16    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           108.72    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7537.52   
+==================================================
+2024-10-02 15:56:58 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:57:19 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:06:48 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:09:28 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:12:11 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:14:16 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:22:01 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:26:29 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:29:04 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:38:59 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:52:25 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:52:47 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:06:43 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:09:13 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:10:31 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:12:57 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:19:59 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:21:28 ERROR on: https://vgpu-test-16.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40935     
+Benchmark duration (s):                  5906.33   
+Total input tokens:                      9097084   
+Total generated tokens:                  7568466   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1540.23   
+Output token throughput (tok/s):         1281.42   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          6976.93   
+Median TTFT (ms):                        8597.19   
+P99 TTFT (ms):                           12143.86  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          62.72     
+Median TPOT (ms):                        77.16     
+P99 TPOT (ms):                           142.41    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           109.41    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            7574.09   
+==================================================
+2024-10-02 15:55:03 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 15:59:51 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:07:21 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:14:17 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:23:47 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:24:10 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:30:05 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:31:12 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:37:36 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:51:56 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:52:56 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:53:27 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 16:58:12 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:01:16 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:19 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:39 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:11:40 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:14:08 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+2024-10-02 17:20:34 ERROR on: https://vgpu-test-6.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40931     
+Benchmark duration (s):                  5906.50   
+Total input tokens:                      9092945   
+Total generated tokens:                  7569137   
+Request throughput (req/s):              6.93      
+Input token throughput (tok/s):          1539.48   
+Output token throughput (tok/s):         1281.49   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          7116.44   
+Median TTFT (ms):                        8848.36   
+P99 TTFT (ms):                           12370.97  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          65.43     
+Median TPOT (ms):                        81.30     
+P99 TPOT (ms):                           147.12    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           114.21    
+Median ITL (ms):                         0.02      
+P99 ITL (ms):                            8060.22   
+==================================================
