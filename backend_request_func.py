@@ -289,7 +289,7 @@ async def async_request_openai_completions(
                                 if ttft == 0.0:
                                     ttft = time.perf_counter() - st
                                     output.ttft = ttft
-                                    print(f"***ON {timeget()} GOT TTFT ON {session_id}: {ttft} seconds***")
+                                    #print(f"***ON {timeget()} GOT TTFT ON {session_id}: {ttft} seconds***")
 
                                 # Decoding phase
                                 else:
