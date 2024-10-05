@@ -1,0 +1,834 @@
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+WARNING 10-04 16:11:25 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+Namespace(backend='vllm', base_url='https://vgpu-test-20.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-7.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-32.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-30.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-26.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-6.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-23.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-9.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-3.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-15.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-11.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-5.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-18.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-24.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-28.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-14.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-22.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-2.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-31.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-19.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-12.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-13.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-25.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-10.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-1.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-17.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-8.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-29.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-27.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-16.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-21.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+Namespace(backend='vllm', base_url='https://vgpu-test-4.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.0
+============ Serving Benchmark Result ============
+Successful requests:                     9870      
+Benchmark duration (s):                  6859.03   
+Total input tokens:                      1620700   
+Total generated tokens:                  1991695   
+Request throughput (req/s):              1.44      
+Input token throughput (tok/s):          236.29    
+Output token throughput (tok/s):         290.38    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45373.61  
+Median TTFT (ms):                        48714.50  
+P99 TTFT (ms):                           50079.64  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          102.04    
+Median TPOT (ms):                        87.01     
+P99 TPOT (ms):                           412.22    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.84     
+Median ITL (ms):                         65.30     
+P99 ITL (ms):                            483.20    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9863      
+Benchmark duration (s):                  6863.05   
+Total input tokens:                      1613911   
+Total generated tokens:                  1997712   
+Request throughput (req/s):              1.44      
+Input token throughput (tok/s):          235.16    
+Output token throughput (tok/s):         291.08    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45219.46  
+Median TTFT (ms):                        48703.52  
+P99 TTFT (ms):                           50076.02  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          104.21    
+Median TPOT (ms):                        86.93     
+P99 TPOT (ms):                           398.82    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.83     
+Median ITL (ms):                         65.40     
+P99 ITL (ms):                            474.41    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9805      
+Benchmark duration (s):                  6863.68   
+Total input tokens:                      1576646   
+Total generated tokens:                  1989444   
+Request throughput (req/s):              1.43      
+Input token throughput (tok/s):          229.71    
+Output token throughput (tok/s):         289.85    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45248.40  
+Median TTFT (ms):                        48698.75  
+P99 TTFT (ms):                           50072.74  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          102.91    
+Median TPOT (ms):                        87.70     
+P99 TPOT (ms):                           413.40    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.90     
+Median ITL (ms):                         65.49     
+P99 ITL (ms):                            475.84    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9973      
+Benchmark duration (s):                  6866.37   
+Total input tokens:                      1668930   
+Total generated tokens:                  1990321   
+Request throughput (req/s):              1.45      
+Input token throughput (tok/s):          243.06    
+Output token throughput (tok/s):         289.87    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45256.36  
+Median TTFT (ms):                        48657.74  
+P99 TTFT (ms):                           50076.80  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          102.17    
+Median TPOT (ms):                        86.66     
+P99 TPOT (ms):                           413.46    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.43     
+Median ITL (ms):                         65.30     
+P99 ITL (ms):                            472.80    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9666      
+Benchmark duration (s):                  6867.60   
+Total input tokens:                      1583860   
+Total generated tokens:                  1974889   
+Request throughput (req/s):              1.41      
+Input token throughput (tok/s):          230.63    
+Output token throughput (tok/s):         287.57    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45370.59  
+Median TTFT (ms):                        48796.89  
+P99 TTFT (ms):                           50068.24  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          104.07    
+Median TPOT (ms):                        87.70     
+P99 TPOT (ms):                           448.34    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           89.53     
+Median ITL (ms):                         65.63     
+P99 ITL (ms):                            480.25    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9704      
+Benchmark duration (s):                  6867.55   
+Total input tokens:                      1599258   
+Total generated tokens:                  1975789   
+Request throughput (req/s):              1.41      
+Input token throughput (tok/s):          232.87    
+Output token throughput (tok/s):         287.70    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45245.86  
+Median TTFT (ms):                        48658.74  
+P99 TTFT (ms):                           50073.56  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          103.14    
+Median TPOT (ms):                        87.64     
+P99 TPOT (ms):                           382.18    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           89.38     
+Median ITL (ms):                         65.83     
+P99 ITL (ms):                            475.79    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9586      
+Benchmark duration (s):                  6869.39   
+Total input tokens:                      1543715   
+Total generated tokens:                  1949240   
+Request throughput (req/s):              1.40      
+Input token throughput (tok/s):          224.72    
+Output token throughput (tok/s):         283.76    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45427.76  
+Median TTFT (ms):                        48745.58  
+P99 TTFT (ms):                           50083.65  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          104.27    
+Median TPOT (ms):                        89.18     
+P99 TPOT (ms):                           385.42    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           90.98     
+Median ITL (ms):                         66.24     
+P99 ITL (ms):                            479.93    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9781      
+Benchmark duration (s):                  6868.60   
+Total input tokens:                      1586208   
+Total generated tokens:                  2000414   
+Request throughput (req/s):              1.42      
+Input token throughput (tok/s):          230.94    
+Output token throughput (tok/s):         291.24    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45396.07  
+Median TTFT (ms):                        48760.33  
+P99 TTFT (ms):                           50072.84  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          102.23    
+Median TPOT (ms):                        87.12     
+P99 TPOT (ms):                           408.77    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.39     
+Median ITL (ms):                         65.29     
+P99 ITL (ms):                            476.68    
+==================================================
+2024-10-04 16:58:09 ERROR on: https://vgpu-test-23.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     9874      
+Benchmark duration (s):                  6869.62   
+Total input tokens:                      1597339   
+Total generated tokens:                  2009211   
+Request throughput (req/s):              1.44      
+Input token throughput (tok/s):          232.52    
+Output token throughput (tok/s):         292.48    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45569.85  
+Median TTFT (ms):                        48853.09  
+P99 TTFT (ms):                           50074.86  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          99.92     
+Median TPOT (ms):                        87.08     
+P99 TPOT (ms):                           363.41    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.46     
+Median ITL (ms):                         65.50     
+P99 ITL (ms):                            475.73    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9524      
+Benchmark duration (s):                  6869.48   
+Total input tokens:                      1558274   
+Total generated tokens:                  1935568   
+Request throughput (req/s):              1.39      
+Input token throughput (tok/s):          226.84    
+Output token throughput (tok/s):         281.76    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45519.27  
+Median TTFT (ms):                        48743.94  
+P99 TTFT (ms):                           50073.14  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          105.07    
+Median TPOT (ms):                        88.93     
+P99 TPOT (ms):                           418.39    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           90.36     
+Median ITL (ms):                         65.94     
+P99 ITL (ms):                            481.58    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9840      
+Benchmark duration (s):                  6869.90   
+Total input tokens:                      1624870   
+Total generated tokens:                  1979532   
+Request throughput (req/s):              1.43      
+Input token throughput (tok/s):          236.52    
+Output token throughput (tok/s):         288.15    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45312.24  
+Median TTFT (ms):                        48773.66  
+P99 TTFT (ms):                           50081.08  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          102.38    
+Median TPOT (ms):                        86.75     
+P99 TPOT (ms):                           412.12    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.68     
+Median ITL (ms):                         65.30     
+P99 ITL (ms):                            478.09    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9774      
+Benchmark duration (s):                  6869.72   
+Total input tokens:                      1604425   
+Total generated tokens:                  1972942   
+Request throughput (req/s):              1.42      
+Input token throughput (tok/s):          233.55    
+Output token throughput (tok/s):         287.19    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45319.26  
+Median TTFT (ms):                        48795.73  
+P99 TTFT (ms):                           50072.15  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          104.88    
+Median TPOT (ms):                        89.03     
+P99 TPOT (ms):                           394.54    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           90.79     
+Median ITL (ms):                         66.55     
+P99 ITL (ms):                            478.57    
+==================================================
+2024-10-04 17:53:06 ERROR on: https://vgpu-test-7.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     9735      
+Benchmark duration (s):                  6872.33   
+Total input tokens:                      1574992   
+Total generated tokens:                  1994606   
+Request throughput (req/s):              1.42      
+Input token throughput (tok/s):          229.18    
+Output token throughput (tok/s):         290.24    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45441.10  
+Median TTFT (ms):                        48747.09  
+P99 TTFT (ms):                           50075.36  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          102.47    
+Median TPOT (ms):                        86.94     
+P99 TPOT (ms):                           417.94    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.99     
+Median ITL (ms):                         65.45     
+P99 ITL (ms):                            476.52    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9753      
+Benchmark duration (s):                  6871.27   
+Total input tokens:                      1594094   
+Total generated tokens:                  1976249   
+Request throughput (req/s):              1.42      
+Input token throughput (tok/s):          231.99    
+Output token throughput (tok/s):         287.61    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45256.21  
+Median TTFT (ms):                        48718.01  
+P99 TTFT (ms):                           50078.65  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          103.46    
+Median TPOT (ms):                        88.02     
+P99 TPOT (ms):                           402.19    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           89.75     
+Median ITL (ms):                         65.91     
+P99 ITL (ms):                            476.31    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     10049     
+Benchmark duration (s):                  6872.08   
+Total input tokens:                      1609394   
+Total generated tokens:                  2027599   
+Request throughput (req/s):              1.46      
+Input token throughput (tok/s):          234.19    
+Output token throughput (tok/s):         295.05    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45274.79  
+Median TTFT (ms):                        48766.57  
+P99 TTFT (ms):                           50070.27  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          101.35    
+Median TPOT (ms):                        86.92     
+P99 TPOT (ms):                           350.90    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.54     
+Median ITL (ms):                         65.61     
+P99 ITL (ms):                            475.78    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9852      
+Benchmark duration (s):                  6872.15   
+Total input tokens:                      1607626   
+Total generated tokens:                  1991839   
+Request throughput (req/s):              1.43      
+Input token throughput (tok/s):          233.93    
+Output token throughput (tok/s):         289.84    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45462.38  
+Median TTFT (ms):                        48764.19  
+P99 TTFT (ms):                           50073.70  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          103.24    
+Median TPOT (ms):                        87.58     
+P99 TPOT (ms):                           410.58    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           89.42     
+Median ITL (ms):                         65.59     
+P99 ITL (ms):                            479.68    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9623      
+Benchmark duration (s):                  6873.00   
+Total input tokens:                      1576317   
+Total generated tokens:                  1959115   
+Request throughput (req/s):              1.40      
+Input token throughput (tok/s):          229.35    
+Output token throughput (tok/s):         285.05    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45663.65  
+Median TTFT (ms):                        48801.46  
+P99 TTFT (ms):                           50069.98  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          103.27    
+Median TPOT (ms):                        88.54     
+P99 TPOT (ms):                           379.18    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           90.21     
+Median ITL (ms):                         66.07     
+P99 ITL (ms):                            481.31    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9895      
+Benchmark duration (s):                  6873.10   
+Total input tokens:                      1648442   
+Total generated tokens:                  1979582   
+Request throughput (req/s):              1.44      
+Input token throughput (tok/s):          239.84    
+Output token throughput (tok/s):         288.02    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45293.50  
+Median TTFT (ms):                        48737.03  
+P99 TTFT (ms):                           50071.84  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          104.03    
+Median TPOT (ms):                        87.96     
+P99 TPOT (ms):                           409.55    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           89.86     
+Median ITL (ms):                         65.72     
+P99 ITL (ms):                            481.75    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9661      
+Benchmark duration (s):                  6873.52   
+Total input tokens:                      1577805   
+Total generated tokens:                  1958642   
+Request throughput (req/s):              1.41      
+Input token throughput (tok/s):          229.55    
+Output token throughput (tok/s):         284.95    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45391.06  
+Median TTFT (ms):                        48753.56  
+P99 TTFT (ms):                           50072.02  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          105.14    
+Median TPOT (ms):                        88.64     
+P99 TPOT (ms):                           434.80    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           90.09     
+Median ITL (ms):                         66.06     
+P99 ITL (ms):                            479.41    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9891      
+Benchmark duration (s):                  6873.37   
+Total input tokens:                      1623566   
+Total generated tokens:                  1998775   
+Request throughput (req/s):              1.44      
+Input token throughput (tok/s):          236.21    
+Output token throughput (tok/s):         290.80    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45347.91  
+Median TTFT (ms):                        48806.50  
+P99 TTFT (ms):                           50082.53  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          105.39    
+Median TPOT (ms):                        87.91     
+P99 TPOT (ms):                           426.51    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           89.37     
+Median ITL (ms):                         65.60     
+P99 ITL (ms):                            485.87    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9877      
+Benchmark duration (s):                  6874.75   
+Total input tokens:                      1600080   
+Total generated tokens:                  1999689   
+Request throughput (req/s):              1.44      
+Input token throughput (tok/s):          232.75    
+Output token throughput (tok/s):         290.87    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45276.20  
+Median TTFT (ms):                        48732.65  
+P99 TTFT (ms):                           50067.12  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          101.70    
+Median TPOT (ms):                        86.94     
+P99 TPOT (ms):                           368.79    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           88.74     
+Median ITL (ms):                         65.24     
+P99 ITL (ms):                            475.23    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9803      
+Benchmark duration (s):                  6875.97   
+Total input tokens:                      1623002   
+Total generated tokens:                  1967696   
+Request throughput (req/s):              1.43      
+Input token throughput (tok/s):          236.04    
+Output token throughput (tok/s):         286.17    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45141.48  
+Median TTFT (ms):                        48676.14  
+P99 TTFT (ms):                           50070.16  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          103.63    
+Median TPOT (ms):                        87.96     
+P99 TPOT (ms):                           417.62    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           89.88     
+Median ITL (ms):                         66.02     
+P99 ITL (ms):                            475.34    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9522      
+Benchmark duration (s):                  6875.93   
+Total input tokens:                      1537657   
+Total generated tokens:                  1925235   
+Request throughput (req/s):              1.38      
+Input token throughput (tok/s):          223.63    
+Output token throughput (tok/s):         280.00    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45508.66  
+Median TTFT (ms):                        48884.58  
+P99 TTFT (ms):                           50077.10  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          105.64    
+Median TPOT (ms):                        90.50     
+P99 TPOT (ms):                           389.87    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           92.26     
+Median ITL (ms):                         67.15     
+P99 ITL (ms):                            484.60    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9767      
+Benchmark duration (s):                  6876.62   
+Total input tokens:                      1585134   
+Total generated tokens:                  1975078   
+Request throughput (req/s):              1.42      
+Input token throughput (tok/s):          230.51    
+Output token throughput (tok/s):         287.22    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45287.94  
+Median TTFT (ms):                        48795.10  
+P99 TTFT (ms):                           50074.79  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          103.34    
+Median TPOT (ms):                        87.99     
+P99 TPOT (ms):                           406.78    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           89.94     
+Median ITL (ms):                         65.89     
+P99 ITL (ms):                            480.41    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9755      
+Benchmark duration (s):                  6878.78   
+Total input tokens:                      1571990   
+Total generated tokens:                  1976398   
+Request throughput (req/s):              1.42      
+Input token throughput (tok/s):          228.53    
+Output token throughput (tok/s):         287.32    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45532.15  
+Median TTFT (ms):                        48808.65  
+P99 TTFT (ms):                           50074.79  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          105.28    
+Median TPOT (ms):                        89.26     
+P99 TPOT (ms):                           419.87    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           90.92     
+Median ITL (ms):                         66.74     
+P99 ITL (ms):                            482.25    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9672      
+Benchmark duration (s):                  6878.90   
+Total input tokens:                      1579023   
+Total generated tokens:                  1969509   
+Request throughput (req/s):              1.41      
+Input token throughput (tok/s):          229.55    
+Output token throughput (tok/s):         286.31    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45418.47  
+Median TTFT (ms):                        48692.96  
+P99 TTFT (ms):                           50073.23  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          105.15    
+Median TPOT (ms):                        88.31     
+P99 TPOT (ms):                           439.82    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           90.26     
+Median ITL (ms):                         65.97     
+P99 ITL (ms):                            478.38    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9978      
+Benchmark duration (s):                  6881.62   
+Total input tokens:                      1619057   
+Total generated tokens:                  2027636   
+Request throughput (req/s):              1.45      
+Input token throughput (tok/s):          235.27    
+Output token throughput (tok/s):         294.65    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45420.57  
+Median TTFT (ms):                        48771.83  
+P99 TTFT (ms):                           50077.12  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          101.05    
+Median TPOT (ms):                        85.84     
+P99 TPOT (ms):                           385.74    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           87.52     
+Median ITL (ms):                         64.93     
+P99 ITL (ms):                            477.19    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9756      
+Benchmark duration (s):                  6883.48   
+Total input tokens:                      1607177   
+Total generated tokens:                  1978233   
+Request throughput (req/s):              1.42      
+Input token throughput (tok/s):          233.48    
+Output token throughput (tok/s):         287.39    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45399.74  
+Median TTFT (ms):                        48763.20  
+P99 TTFT (ms):                           50072.55  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          102.96    
+Median TPOT (ms):                        87.24     
+P99 TPOT (ms):                           412.38    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           89.40     
+Median ITL (ms):                         65.69     
+P99 ITL (ms):                            476.80    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     10143     
+Benchmark duration (s):                  6883.64   
+Total input tokens:                      1699026   
+Total generated tokens:                  2026914   
+Request throughput (req/s):              1.47      
+Input token throughput (tok/s):          246.82    
+Output token throughput (tok/s):         294.45    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45264.71  
+Median TTFT (ms):                        48726.69  
+P99 TTFT (ms):                           50073.53  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          99.90     
+Median TPOT (ms):                        85.14     
+P99 TPOT (ms):                           381.54    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           86.56     
+Median ITL (ms):                         64.60     
+P99 ITL (ms):                            470.34    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     10089     
+Benchmark duration (s):                  6885.66   
+Total input tokens:                      1697659   
+Total generated tokens:                  2022048   
+Request throughput (req/s):              1.47      
+Input token throughput (tok/s):          246.55    
+Output token throughput (tok/s):         293.66    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45257.75  
+Median TTFT (ms):                        48681.98  
+P99 TTFT (ms):                           50074.04  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          102.23    
+Median TPOT (ms):                        85.82     
+P99 TPOT (ms):                           406.57    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           87.29     
+Median ITL (ms):                         64.81     
+P99 ITL (ms):                            473.55    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9546      
+Benchmark duration (s):                  6885.02   
+Total input tokens:                      1533634   
+Total generated tokens:                  1953797   
+Request throughput (req/s):              1.39      
+Input token throughput (tok/s):          222.75    
+Output token throughput (tok/s):         283.78    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45770.71  
+Median TTFT (ms):                        48894.85  
+P99 TTFT (ms):                           50074.68  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          105.86    
+Median TPOT (ms):                        88.96     
+P99 TPOT (ms):                           433.17    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           90.81     
+Median ITL (ms):                         66.24     
+P99 ITL (ms):                            478.02    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     9500      
+Benchmark duration (s):                  6885.83   
+Total input tokens:                      1539593   
+Total generated tokens:                  1949078   
+Request throughput (req/s):              1.38      
+Input token throughput (tok/s):          223.59    
+Output token throughput (tok/s):         283.06    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45447.57  
+Median TTFT (ms):                        48800.29  
+P99 TTFT (ms):                           50077.71  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          105.47    
+Median TPOT (ms):                        87.95     
+P99 TPOT (ms):                           446.18    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           90.21     
+Median ITL (ms):                         65.98     
+P99 ITL (ms):                            479.85    
+==================================================
