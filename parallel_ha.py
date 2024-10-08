@@ -8,7 +8,7 @@ def run_benchmark(url):
     cmd = f"export OPENAI_API_KEY=token-abc123 && python3 benchmark_serving.py \
             --backend vllm --model meta-llama/Meta-Llama-3-8B-Instruct \
             --dataset-name sharegpt --dataset-path ./ShareGPT_V3_unfiltered_cleaned_split.json \
-            --num-prompts 20480 --base-url {url[0]} --request_rate=3"
+            --num-prompts 20480 --base-url {url[0]} --request_rate=3.5"
     result = subprocess.call(cmd, shell=True)
     return result
 

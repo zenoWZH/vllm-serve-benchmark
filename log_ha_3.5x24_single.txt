@@ -1,0 +1,27 @@
+WARNING 10-06 20:24:53 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+Namespace(backend='vllm', base_url='https://vgpu-test-1.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+============ Serving Benchmark Result ============
+Successful requests:                     10031     
+Benchmark duration (s):                  5908.06   
+Total input tokens:                      1646902   
+Total generated tokens:                  2019514   
+Request throughput (req/s):              1.70      
+Input token throughput (tok/s):          278.76    
+Output token throughput (tok/s):         341.82    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45457.43  
+Median TTFT (ms):                        48934.60  
+P99 TTFT (ms):                           50080.60  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          88.05     
+Median TPOT (ms):                        73.93     
+P99 TPOT (ms):                           368.72    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           75.50     
+Median ITL (ms):                         58.70     
+P99 ITL (ms):                            398.53    
+==================================================
+

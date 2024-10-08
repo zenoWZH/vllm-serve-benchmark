@@ -1,0 +1,28 @@
+WARNING 10-05 13:53:21 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+Namespace(backend='vllm', base_url='https://vgpu-test-1.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+2024-10-05 14:03:09 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+2024-10-05 15:25:24 ERROR on: https://vgpu-test-1.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     10551     
+Benchmark duration (s):                  5902.04   
+Total input tokens:                      1757640   
+Total generated tokens:                  2130009   
+Request throughput (req/s):              1.79      
+Input token throughput (tok/s):          297.80    
+Output token throughput (tok/s):         360.89    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          45354.93  
+Median TTFT (ms):                        48869.03  
+P99 TTFT (ms):                           50083.59  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          80.57     
+Median TPOT (ms):                        69.18     
+P99 TPOT (ms):                           277.56    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           70.49     
+Median ITL (ms):                         51.00     
+P99 ITL (ms):                            353.73    
+==================================================
