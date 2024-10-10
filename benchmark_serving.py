@@ -469,6 +469,7 @@ def main(args: argparse.Namespace):
             tokenizer=tokenizer,
             fixed_output_len=args.sharegpt_output_len,
         )
+        print(f"***Total Requests: {args.num_prompts}***")
 
     elif args.dataset_name == "sharegpt":
         input_requests = sample_sharegpt_requests(

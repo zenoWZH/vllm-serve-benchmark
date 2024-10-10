@@ -1,0 +1,26 @@
+WARNING 10-08 23:44:04 _custom_ops.py:18] Failed to import from vllm._C with ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+Namespace(backend='vllm', base_url=None, host='216.81.245.85', port=30303, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='meta-llama/Meta-Llama-3-8B-Instruct', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=10240, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=2.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 2.0
+============ Serving Benchmark Result ============
+Successful requests:                     7918      
+Benchmark duration (s):                  26670.51  
+Total input tokens:                      1682840   
+Total generated tokens:                  1503302   
+Request throughput (req/s):              0.30      
+Input token throughput (tok/s):          63.10     
+Output token throughput (tok/s):         56.37     
+---------------Time to First Token----------------
+Mean TTFT (ms):                          146898.60 
+Median TTFT (ms):                        173542.11 
+P99 TTFT (ms):                           179872.96 
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          87.72     
+Median TPOT (ms):                        76.55     
+P99 TPOT (ms):                           301.08    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           77.94     
+Median ITL (ms):                         56.39     
+P99 ITL (ms):                            464.85    
+==================================================
