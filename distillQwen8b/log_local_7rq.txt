@@ -1,0 +1,32 @@
+Namespace(backend='vllm', base_url='https://vllmtest1.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=7.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 7.0
+2025-02-13 17:53:46 ERROR on: https://vllmtest1.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 17:56:23 ERROR on: https://vllmtest1.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 17:58:53 ERROR on: https://vllmtest1.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 18:03:59 ERROR on: https://vllmtest1.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 18:07:19 ERROR on: https://vllmtest1.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 18:23:28 ERROR on: https://vllmtest1.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 18:24:25 ERROR on: https://vllmtest1.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     20464     
+Benchmark duration (s):                  2967.17   
+Total input tokens:                      4517176   
+Total generated tokens:                  3968923   
+Request throughput (req/s):              6.90      
+Input token throughput (tok/s):          1522.39   
+Output token throughput (tok/s):         1337.61   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          409.90    
+Median TTFT (ms):                        399.45    
+P99 TTFT (ms):                           924.13    
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          108.29    
+Median TPOT (ms):                        106.19    
+P99 TPOT (ms):                           161.78    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.68    
+Median ITL (ms):                         87.26     
+P99 ITL (ms):                            346.97    
+==================================================

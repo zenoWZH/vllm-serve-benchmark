@@ -1,0 +1,85 @@
+Namespace(backend='vllm', base_url='https://vllmtest0.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=8.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 8.0
+2025-02-13 19:29:58 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:31:28 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:33:01 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:33:18 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:34:32 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:34:56 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:35:01 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:37:58 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:38:09 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:38:13 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:38:27 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:39:23 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:39:50 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:40:07 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:40:12 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:40:32 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:42:41 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:43:47 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:44:09 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:44:32 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:44:32 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:45:17 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:46:03 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:48:27 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:49:27 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:49:33 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:50:08 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:50:54 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:51:20 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:51:47 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:52:32 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:52:39 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:52:41 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:52:53 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:55:47 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:56:04 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:56:12 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:56:30 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:56:44 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:57:23 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:58:18 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:58:40 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 19:59:54 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:00:17 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:00:33 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:01:22 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:02:04 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:02:16 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:02:44 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:02:52 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:03:03 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:04:42 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:04:54 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:05:19 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:05:26 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:06:08 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:06:20 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:06:58 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:07:20 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-13 20:07:33 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     14767     
+Benchmark duration (s):                  2721.84   
+Total input tokens:                      3243629   
+Total generated tokens:                  2866987   
+Request throughput (req/s):              5.43      
+Input token throughput (tok/s):          1191.70   
+Output token throughput (tok/s):         1053.33   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          15303.22  
+Median TTFT (ms):                        4478.09   
+P99 TTFT (ms):                           51506.24  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          762.66    
+Median TPOT (ms):                        986.86    
+P99 TPOT (ms):                           1280.06   
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           730.13    
+Median ITL (ms):                         668.78    
+P99 ITL (ms):                            1211.37   
+==================================================

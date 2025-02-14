@@ -22,7 +22,7 @@ def read_output(pipe):
     finally:
         pipe.close()
 
-def run_benchmark(model, max_model_len, num_gpus, gpu_memory_utilization, output_json, vllm_start_timeout, dataset_name, dataset_path, num_prompts, max_num_seqs, num_scheduler_steps):
+def run_benchmark(model, max_model_len, num_gpus, gpu_memory_utilization, output_json, vllm_start_timeout, dataset_name, dataset_path, num_prompts, max_num_seqs, num_scheduler_steps, endpoint="/v1/completions"):
     # Start the server and capture its output for error detection
     server_cmd = [
         "python3",
@@ -95,7 +95,7 @@ def run_benchmark(model, max_model_len, num_gpus, gpu_memory_utilization, output
         "--dataset-path", dataset_path,
         "--model", model,
         "--num-prompts", str(num_prompts),
-        "--endpoint", "/v1/completions",
+        "--endpoint", endpoint,
         "--tokenizer", model,
         "--save-result",
         "--result-filename", output_json,
@@ -129,6 +129,7 @@ def main(args):
     max_num_seqs=args.max_num_seqs
     num_scheduler_steps=args.num_scheduler_steps
     result_path=args.result_path
+    endpoint=args.endpoint
 
     print(f"Tasks file: {tasks}")
     print(f"Number of GPUs: {num_gpus}")
@@ -189,7 +190,7 @@ def main(args):
                 last_model = task["model"]
                 flag_failed = False
         try:
-            exit_code = run_benchmark(model, max_model_len, num_gpus, gpu_memory_utilization, output_json, vllm_start_timeout, dataset_name, dataset_path, num_prompts, max_num_seqs, num_scheduler_steps)
+            exit_code = run_benchmark(model, max_model_len, num_gpus, gpu_memory_utilization, output_json, vllm_start_timeout, dataset_name, dataset_path, num_prompts, max_num_seqs, num_scheduler_steps, endpoint)
             print(f"Benchmark test completed with exit code: {exit_code}\n")
             if exit_code != 0:
                 flag_failed = True
@@ -218,6 +219,7 @@ if __name__ == "__main__":
     parser.add_argument("--gpu-memory-utilization", type=float, default=0.95, help="Fraction of GPU memory used.")
     parser.add_argument("--num-scheduler-steps", type=int, default=0, help="Magical setting for reproducing vllm 0.6.0 results.")
     parser.add_argument("--result_path", type=str, default="results", help="Path to save results")
+    parser.add_argument("--endpoint", type=str, default="/v1/completions", help="Path access API for generation")
     args = parser.parse_args()
 
     # Pass parsed arguments to the main function
