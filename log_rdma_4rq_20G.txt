@@ -2,3 +2,24 @@ Namespace(backend='vllm', base_url='https://vllmtest2.service-inference.ai', hos
 Starting initial single prompt test run...
 Initial test run completed. Starting main benchmark run...
 Traffic request rate: 4.0
+============ Serving Benchmark Result ============
+Successful requests:                     5294      
+Benchmark duration (s):                  5190.76   
+Total input tokens:                      654917    
+Total generated tokens:                  1167781   
+Request throughput (req/s):              1.02      
+Input token throughput (tok/s):          126.17    
+Output token throughput (tok/s):         224.97    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          47473.49  
+Median TTFT (ms):                        49551.86  
+P99 TTFT (ms):                           50133.79  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          142.24    
+Median TPOT (ms):                        118.84    
+P99 TPOT (ms):                           556.97    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           122.41    
+Median ITL (ms):                         98.88     
+P99 ITL (ms):                            487.34    
+==================================================
