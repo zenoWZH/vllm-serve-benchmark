@@ -1,0 +1,58 @@
+Namespace(backend='vllm', base_url='https://vllmtest0.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=8.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 8.0
+2025-02-15 17:35:52 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:37:40 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:40:31 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:40:41 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:43:41 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:46:19 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:46:33 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:47:24 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:48:08 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:49:14 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:50:06 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:51:25 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:51:49 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:53:24 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:53:59 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:54:52 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:55:28 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:57:09 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 17:58:14 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:00:25 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:04:16 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:04:20 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:05:38 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:05:52 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:07:58 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:08:22 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:08:28 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:09:14 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:09:22 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:10:19 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:10:33 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:12:14 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-15 18:12:21 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     14639     
+Benchmark duration (s):                  2718.94   
+Total input tokens:                      3225438   
+Total generated tokens:                  2839478   
+Request throughput (req/s):              5.38      
+Input token throughput (tok/s):          1186.28   
+Output token throughput (tok/s):         1044.33   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          15494.33  
+Median TTFT (ms):                        3825.49   
+P99 TTFT (ms):                           50867.52  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          793.89    
+Median TPOT (ms):                        987.19    
+P99 TPOT (ms):                           1284.04   
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           760.23    
+Median ITL (ms):                         832.38    
+P99 ITL (ms):                            1221.34   
+==================================================

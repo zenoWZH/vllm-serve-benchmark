@@ -1,0 +1,27 @@
+Namespace(backend='vllm', base_url='https://vllmtest0.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=10240, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=1.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 1.0
+2025-02-16 17:06:15 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+2025-02-16 18:35:03 ERROR on: https://vllmtest0.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     10027     
+Benchmark duration (s):                  10198.21  
+Total input tokens:                      2195080   
+Total generated tokens:                  1954854   
+Request throughput (req/s):              0.98      
+Input token throughput (tok/s):          215.24    
+Output token throughput (tok/s):         191.69    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          16714.95  
+Median TTFT (ms):                        14796.58  
+P99 TTFT (ms):                           48718.52  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          117.06    
+Median TPOT (ms):                        102.24    
+P99 TPOT (ms):                           378.22    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           103.95    
+Median ITL (ms):                         96.35     
+P99 ITL (ms):                            398.95    
+==================================================

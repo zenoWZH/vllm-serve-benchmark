@@ -1,0 +1,26 @@
+Namespace(backend='vllm', base_url='https://vllmtest3.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=1024, random_output_len=128, random_range_ratio=1.0, request_rate=2.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 2.5
+2025-02-15 13:18:05 ERROR on: https://vllmtest3.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     9457      
+Benchmark duration (s):                  8255.46   
+Total input tokens:                      1510422   
+Total generated tokens:                  1993268   
+Request throughput (req/s):              1.15      
+Input token throughput (tok/s):          182.96    
+Output token throughput (tok/s):         241.45    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          46193.20  
+Median TTFT (ms):                        48632.85  
+P99 TTFT (ms):                           50052.09  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          120.33    
+Median TPOT (ms):                        101.09    
+P99 TPOT (ms):                           471.90    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           102.42    
+Median ITL (ms):                         94.73     
+P99 ITL (ms):                            399.23    
+==================================================
