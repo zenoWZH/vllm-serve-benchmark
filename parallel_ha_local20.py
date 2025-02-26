@@ -6,9 +6,9 @@ from backend_request_func import remove_prefix
 def run_benchmark(url):
     url[0] = "https://" + remove_prefix(url[0], prefix="http://")
     cmd = f"export OPENAI_API_KEY=callinferenceaiforgpu && python3 benchmark_serving.py \
-            --backend vllm --model deepseek-ai/DeepSeek-R1-Distill-Llama-8B \
+            --backend sglang --model deepseek-ai/DeepSeek-R1-Distill-Llama-8B \
             --dataset-name sharegpt --dataset-path ./ShareGPT_V3_unfiltered_cleaned_split.json \
-            --num-prompts 20480 --base-url {url[0]} --request-rate=2 --random-input-len=2048"
+            --num-prompts 20480 --base-url {url[0]} --request-rate=3.0 --random-input-len=2048"
     result = subprocess.call(cmd, shell=True)
     return result
 
