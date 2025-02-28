@@ -13,7 +13,7 @@ def run_benchmark(url):
     return result
 
 if __name__ == '__main__':
-    input_csv = pd.read_csv("API_urls_local20.csv")
+    input_csv = pd.read_csv("API_urls_local24.csv")
     url_list = input_csv[['ing','port']].values.tolist()
     results = []
     with Pool(processes=len(url_list)) as pool:

@@ -1,0 +1,29 @@
+Namespace(backend='sglang', base_url='https://sglang01.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=40960, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=9.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 9.0
+2025-02-26 15:32:15 ERROR on: https://sglang01.service-inference.ai/v1/completions Bad Gateway
+2025-02-26 15:40:48 ERROR on: https://sglang01.service-inference.ai/v1/completions Bad Gateway
+2025-02-26 15:48:23 ERROR on: https://sglang01.service-inference.ai/v1/completions Bad Gateway
+2025-02-26 16:09:44 ERROR on: https://sglang01.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     40932     
+Benchmark duration (s):                  4653.94   
+Total input tokens:                      9095262   
+Total generated tokens:                  7863395   
+Request throughput (req/s):              8.80      
+Input token throughput (tok/s):          1954.31   
+Output token throughput (tok/s):         1689.62   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          3199.50   
+Median TTFT (ms):                        564.24    
+P99 TTFT (ms):                           29044.11  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          180.98    
+Median TPOT (ms):                        180.86    
+P99 TPOT (ms):                           252.35    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           180.50    
+Median ITL (ms):                         160.85    
+P99 ITL (ms):                            573.28    
+==================================================

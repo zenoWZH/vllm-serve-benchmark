@@ -1,0 +1,25 @@
+Namespace(backend='sglang', base_url='https://sglang02.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=20480, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=2.0, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 2.0
+============ Serving Benchmark Result ============
+Successful requests:                     20032     
+Benchmark duration (s):                  10248.83  
+Total input tokens:                      4401478   
+Total generated tokens:                  3869986   
+Request throughput (req/s):              1.95      
+Input token throughput (tok/s):          429.46    
+Output token throughput (tok/s):         377.60    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          9646.32   
+Median TTFT (ms):                        1676.15   
+P99 TTFT (ms):                           47891.09  
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          104.16    
+Median TPOT (ms):                        104.08    
+P99 TPOT (ms):                           156.04    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.30    
+Median ITL (ms):                         98.67     
+P99 ITL (ms):                            313.97    
+==================================================
