@@ -8,7 +8,7 @@ def run_benchmark(url):
     cmd = f"export OPENAI_API_KEY=callinferenceaiforgpu && python3 benchmark_serving.py \
             --backend sglang --model deepseek-ai/DeepSeek-R1-Distill-Llama-8B \
             --dataset-name sharegpt --dataset-path ./ShareGPT_V3_unfiltered_cleaned_split.json \
-            --num-prompts 40960 --base-url {url[0]} --request-rate=11.0 --random-input-len=2048"
+            --num-prompts 40960 --base-url {url[0]} --request-rate=13.0 --random-input-len=2048"
     result = subprocess.call(cmd, shell=True)
     return result
 
