@@ -8,17 +8,18 @@ def run_benchmark(url):
     cmd = f"export OPENAI_API_KEY=callinferenceaiforgpu && python3 benchmark_serving.py \
             --backend sglang --model deepseek-ai/DeepSeek-R1-Distill-Llama-8B \
             --dataset-name sharegpt --dataset-path ./ShareGPT_V3_unfiltered_cleaned_split.json \
-            --num-prompts 40960 --base-url {url[0]} --request-rate=14.0 --random-input-len=2048"
+            --num-prompts 640000 --base-url {url[0]} --request-rate=3.5 --random-input-len=2048"
     result = subprocess.call(cmd, shell=True)
     return result
 
 if __name__ == '__main__':
-    input_csv = pd.read_csv("API_urls_local.csv")
+    input_csv = pd.read_csv("API_urls_hami24.csv")
     url_list = input_csv[['ing','port']].values.tolist()
     results = []
-    with Pool(processes=len(url_list)) as pool:
-        r = pool.map_async(run_benchmark, url_list, callback=results.append)
-        r.wait()
+    for it in range(8):
+        with Pool(processes=len(url_list)) as pool:
+            r = pool.map_async(run_benchmark, url_list, callback=results.append)
+            r.wait()
 
 #    with open("parallel.txt", "a+") as f:
 #        for res in results:

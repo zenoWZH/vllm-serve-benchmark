@@ -1,0 +1,416 @@
+Namespace(backend='sglang', base_url='https://hami12.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami14.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami1.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami2.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami0.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami8.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami15.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami9.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami4.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami11.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami5.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami3.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami10.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami13.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami6.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+Namespace(backend='sglang', base_url='https://hami7.service-inference.ai', host='localhost', port=8000, endpoint='/v1/completions', dataset=None, dataset_name='sharegpt', dataset_path='./ShareGPT_V3_unfiltered_cleaned_split.json', model='deepseek-ai/DeepSeek-R1-Distill-Llama-8B', tokenizer=None, best_of=1, use_beam_search=False, num_prompts=640000, sharegpt_output_len=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, random_input_len=2048, random_output_len=128, random_range_ratio=1.0, request_rate=3.5, seed=0, trust_remote_code=False, disable_tqdm=False, save_result=False, metadata=None, result_dir=None, result_filename=None, ignore_eos=False)
+Starting initial single prompt test run...
+Initial test run completed. Starting main benchmark run...
+Traffic request rate: 3.5
+2025-03-04 06:52:56 ERROR on: https://hami8.service-inference.ai/v1/completions Bad Gateway
+2025-03-04 07:49:44 ERROR on: https://hami8.service-inference.ai/v1/completions Bad Gateway
+2025-03-04 10:59:48 ERROR on: https://hami8.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84218     
+Benchmark duration (s):                  24200.70  
+Total input tokens:                      18810341  
+Total generated tokens:                  16078491  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          777.26    
+Output token throughput (tok/s):         664.38    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          380.73    
+Median TTFT (ms):                        313.60    
+P99 TTFT (ms):                           1078.12   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          106.37    
+Median TPOT (ms):                        103.69    
+P99 TPOT (ms):                           196.52    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           104.19    
+Median ITL (ms):                         73.67     
+P99 ITL (ms):                            502.95    
+==================================================
+2025-03-04 08:06:56 ERROR on: https://hami14.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84223     
+Benchmark duration (s):                  24204.16  
+Total input tokens:                      18807540  
+Total generated tokens:                  16083933  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          777.04    
+Output token throughput (tok/s):         664.51    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          373.59    
+Median TTFT (ms):                        313.59    
+P99 TTFT (ms):                           1060.02   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          106.90    
+Median TPOT (ms):                        104.56    
+P99 TPOT (ms):                           197.18    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           104.73    
+Median ITL (ms):                         73.98     
+P99 ITL (ms):                            506.89    
+==================================================
+2025-03-04 12:01:04 ERROR on: https://hami4.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84172     
+Benchmark duration (s):                  24203.92  
+Total input tokens:                      18801506  
+Total generated tokens:                  16050738  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.80    
+Output token throughput (tok/s):         663.15    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          377.72    
+Median TTFT (ms):                        315.35    
+P99 TTFT (ms):                           1025.18   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          107.44    
+Median TPOT (ms):                        105.10    
+P99 TPOT (ms):                           197.06    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.30    
+Median ITL (ms):                         74.11     
+P99 ITL (ms):                            516.60    
+==================================================
+2025-03-04 10:50:34 ERROR on: https://hami3.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84198     
+Benchmark duration (s):                  24203.55  
+Total input tokens:                      18801379  
+Total generated tokens:                  16071406  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.80    
+Output token throughput (tok/s):         664.01    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          374.75    
+Median TTFT (ms):                        318.12    
+P99 TTFT (ms):                           1032.30   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          107.78    
+Median TPOT (ms):                        105.53    
+P99 TPOT (ms):                           199.18    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.59    
+Median ITL (ms):                         74.30     
+P99 ITL (ms):                            511.85    
+==================================================
+2025-03-04 11:23:06 ERROR on: https://hami1.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84209     
+Benchmark duration (s):                  24203.87  
+Total input tokens:                      18803596  
+Total generated tokens:                  16074663  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.88    
+Output token throughput (tok/s):         664.14    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          378.01    
+Median TTFT (ms):                        316.81    
+P99 TTFT (ms):                           1066.29   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          107.96    
+Median TPOT (ms):                        105.45    
+P99 TPOT (ms):                           200.05    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.67    
+Median ITL (ms):                         74.45     
+P99 ITL (ms):                            514.70    
+==================================================
+2025-03-04 07:01:42 ERROR on: https://hami0.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84197     
+Benchmark duration (s):                  24204.27  
+Total input tokens:                      18802875  
+Total generated tokens:                  16073530  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.84    
+Output token throughput (tok/s):         664.08    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          377.29    
+Median TTFT (ms):                        316.20    
+P99 TTFT (ms):                           1024.69   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          108.14    
+Median TPOT (ms):                        105.75    
+P99 TPOT (ms):                           199.11    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.93    
+Median ITL (ms):                         74.59     
+P99 ITL (ms):                            516.79    
+==================================================
+2025-03-04 06:10:10 ERROR on: https://hami9.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84203     
+Benchmark duration (s):                  24204.14  
+Total input tokens:                      18803954  
+Total generated tokens:                  16075548  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.89    
+Output token throughput (tok/s):         664.17    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          371.34    
+Median TTFT (ms):                        313.23    
+P99 TTFT (ms):                           1050.02   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          106.07    
+Median TPOT (ms):                        103.73    
+P99 TPOT (ms):                           195.42    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           103.95    
+Median ITL (ms):                         73.58     
+P99 ITL (ms):                            502.39    
+==================================================
+2025-03-04 10:06:17 ERROR on: https://hami15.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84238     
+Benchmark duration (s):                  24204.24  
+Total input tokens:                      18810233  
+Total generated tokens:                  16085430  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          777.15    
+Output token throughput (tok/s):         664.57    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          372.55    
+Median TTFT (ms):                        314.05    
+P99 TTFT (ms):                           1019.89   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          106.30    
+Median TPOT (ms):                        103.78    
+P99 TPOT (ms):                           196.24    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           104.15    
+Median ITL (ms):                         73.55     
+P99 ITL (ms):                            504.19    
+==================================================
+2025-03-04 08:43:27 ERROR on: https://hami10.service-inference.ai/v1/completions Bad Gateway
+2025-03-04 10:09:28 ERROR on: https://hami10.service-inference.ai/v1/completions Bad Gateway
+2025-03-04 11:56:34 ERROR on: https://hami10.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84204     
+Benchmark duration (s):                  24204.08  
+Total input tokens:                      18805710  
+Total generated tokens:                  16081817  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.96    
+Output token throughput (tok/s):         664.43    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          379.18    
+Median TTFT (ms):                        314.50    
+P99 TTFT (ms):                           1037.25   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          107.36    
+Median TPOT (ms):                        104.79    
+P99 TPOT (ms):                           198.60    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.11    
+Median ITL (ms):                         74.09     
+P99 ITL (ms):                            512.06    
+==================================================
+2025-03-04 12:20:15 ERROR on: https://hami13.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84194     
+Benchmark duration (s):                  24204.13  
+Total input tokens:                      18799796  
+Total generated tokens:                  16079796  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.72    
+Output token throughput (tok/s):         664.34    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          376.54    
+Median TTFT (ms):                        321.59    
+P99 TTFT (ms):                           1075.62   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          111.69    
+Median TPOT (ms):                        109.41    
+P99 TPOT (ms):                           202.73    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           109.54    
+Median ITL (ms):                         75.80     
+P99 ITL (ms):                            529.66    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     84201     
+Benchmark duration (s):                  24204.57  
+Total input tokens:                      18801980  
+Total generated tokens:                  16075841  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.79    
+Output token throughput (tok/s):         664.17    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          378.23    
+Median TTFT (ms):                        317.02    
+P99 TTFT (ms):                           1018.54   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          108.15    
+Median TPOT (ms):                        105.67    
+P99 TPOT (ms):                           198.43    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.97    
+Median ITL (ms):                         74.48     
+P99 ITL (ms):                            521.99    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     84200     
+Benchmark duration (s):                  24204.15  
+Total input tokens:                      18799363  
+Total generated tokens:                  16074172  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.70    
+Output token throughput (tok/s):         664.11    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          390.21    
+Median TTFT (ms):                        321.35    
+P99 TTFT (ms):                           1075.30   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          109.64    
+Median TPOT (ms):                        107.26    
+P99 TPOT (ms):                           201.07    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           107.40    
+Median ITL (ms):                         75.06     
+P99 ITL (ms):                            527.06    
+==================================================
+2025-03-04 08:42:23 ERROR on: https://hami12.service-inference.ai/v1/completions Bad Gateway
+2025-03-04 09:33:18 ERROR on: https://hami12.service-inference.ai/v1/completions Bad Gateway
+============ Serving Benchmark Result ============
+Successful requests:                     84190     
+Benchmark duration (s):                  24205.91  
+Total input tokens:                      18803048  
+Total generated tokens:                  16072882  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.80    
+Output token throughput (tok/s):         664.01    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          376.23    
+Median TTFT (ms):                        320.17    
+P99 TTFT (ms):                           1025.04   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          109.31    
+Median TPOT (ms):                        107.00    
+P99 TPOT (ms):                           203.28    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           106.99    
+Median ITL (ms):                         75.16     
+P99 ITL (ms):                            519.74    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     84210     
+Benchmark duration (s):                  24205.22  
+Total input tokens:                      18807363  
+Total generated tokens:                  16078414  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          777.00    
+Output token throughput (tok/s):         664.25    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          372.30    
+Median TTFT (ms):                        315.79    
+P99 TTFT (ms):                           1018.88   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          107.59    
+Median TPOT (ms):                        105.54    
+P99 TPOT (ms):                           197.47    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.43    
+Median ITL (ms):                         74.22     
+P99 ITL (ms):                            514.89    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     84215     
+Benchmark duration (s):                  24204.85  
+Total input tokens:                      18807704  
+Total generated tokens:                  16084259  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          777.02    
+Output token throughput (tok/s):         664.51    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          380.10    
+Median TTFT (ms):                        321.68    
+P99 TTFT (ms):                           1130.49   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          111.39    
+Median TPOT (ms):                        109.01    
+P99 TPOT (ms):                           205.04    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           109.34    
+Median ITL (ms):                         75.62     
+P99 ITL (ms):                            528.02    
+==================================================
+============ Serving Benchmark Result ============
+Successful requests:                     84202     
+Benchmark duration (s):                  24205.53  
+Total input tokens:                      18801238  
+Total generated tokens:                  16082148  
+Request throughput (req/s):              3.48      
+Input token throughput (tok/s):          776.73    
+Output token throughput (tok/s):         664.40    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          377.68    
+Median TTFT (ms):                        317.44    
+P99 TTFT (ms):                           1065.76   
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          108.12    
+Median TPOT (ms):                        105.65    
+P99 TPOT (ms):                           198.66    
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           105.90    
+Median ITL (ms):                         74.31     
+P99 ITL (ms):                            516.75    
+==================================================
